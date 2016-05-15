@@ -1,0 +1,18 @@
+<?xml version="1.1" encoding="utf-8"?>
+<rack><plugin type="reverb" instance-name="reverb" input-index="1" output-index="1">
+<preset bank="0" program="0" plugin="reverb" name="">
+  <param name="clip" value="0" />
+  <param name="meter_wet" value="0" />
+  <param name="meter_out" value="0" />
+  <param name="decay_time" value="1.10354" />
+  <param name="hf_damp" value="2182.58" />
+  <param name="room_size" value="4" />
+  <param name="diffusion" value="0.69" />
+  <param name="amount" value="0" />
+  <param name="dry" value="1" />
+  <param name="predelay" value="6.5" />
+  <param name="bass_cut" value="514.079" />
+  <param name="treble_cut" value="4064.15" />
+</preset>
+</plugin>
+</rack>
