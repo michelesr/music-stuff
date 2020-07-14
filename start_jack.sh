@@ -14,8 +14,8 @@
 echo "Starting JACK"
 jack_control start
 
-echo "Setting realtime priority to JACK"
-sudo schedtool -R -p 20 `pidof jackdbus`
+# echo "Setting realtime priority to JACK"
+# sudo schedtool -R -p 20 `pidof jackdbus`
 
 echo "Starting clients"
 /usr/bin/a2jmidid -e &
@@ -25,7 +25,7 @@ calfjackhost --load ~/Projects/Audio/calf_session.xml &
 zynaddsubfx -l ~/Projects/Audio/zynaddsubfx_session.xmz &
 
 echo "Setting ALSA output volume to 100%"
-pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo 100%
+pactl set-sink-volume alsa_output.pci-0000_00_1f.3.analog-stereo 100%
 
 sleep 5
 
